@@ -1,0 +1,66 @@
+# -------------------------
+#   ÉDITEURS / ENVIRONNEMENT
+# -------------------------
+
+# VS Code
+.vscode/
+*.code-workspace
+
+# JetBrains (si jamais)
+.idea/
+
+# -------------------------
+#   ARDUINO IDE
+# -------------------------
+
+# Arduino build folders
+build/
+cmake-build*/
+*.elf
+*.bin
+*.hex
+
+# Fichiers générés par l'IDE Arduino
+*.pioenv
+*.pideps
+
+# -------------------------
+#   PLATFORMIO
+# -------------------------
+
+# PlatformIO build & libraries
+.pio/
+.pioenvs/
+.piolibdeps/
+
+# -------------------------
+#   ESP32 TOOLCHAINS
+# -------------------------
+
+# ESP-IDF temporary files (au cas où tu utilises un outil)
+sdkconfig
+sdkconfig.old
+
+# -------------------------
+#   SYSTEME / OS
+# -------------------------
+
+# macOS
+.DS_Store
+
+# Windows
+Thumbs.db
+desktop.ini
+
+# Linux temp files
+*~
+
+# -------------------------
+#   LOGS & ARCHIVES
+# -------------------------
+
+*.log
+*.zip
+*.tar
+*.gz
+*.7z
