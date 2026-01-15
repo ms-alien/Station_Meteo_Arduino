@@ -1,6 +1,6 @@
 # Station Meteo
 
-Une station meteo pour recueillir la temperature et l'humidité dans un environement dedié
+Station météo embarquée basée sur Arduino, permettant de mesurer, afficher et mémoriser la température et l’humidité via un capteur DHT11, avec interface LCD et navigation par boutons.
 
 ## 🎯 Objectif du projet
 
@@ -25,22 +25,24 @@ Ce projet est conçu comme une base pédagogique et fonctionnelle pour les syst�
 - Autres composants : Resistance, câble dupont
 
 ## 🧱 Structure du projet
-nom_du_projet/
+
+StationMeteo/
 ├── src/
-│ └── main.cpp
+│   └── main.cpp
 ├── hardware/
-│ ├── BOM.md
-│ ├── wiring.png
-│ └── schematic.pdf
+│   ├── BOM.md
+│   ├── wiring.png
+│   └── schematic.pdf
 ├── docs/
-│ └── setup.md
+│   └── setup.md
 ├── assets/
-| └── demo/
-│ └── images/
+│   ├── demo/
+│   └── images/
 ├── lib/
 ├── include/
 ├── test/
 └── README.md
+
 
 ## 🔌 Matériel nécessaire
 
