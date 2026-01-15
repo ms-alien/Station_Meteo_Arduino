@@ -24,26 +24,6 @@ Ce projet est conçu comme une base pédagogique et fonctionnelle pour les syst�
 - Affichage : LCD I2C 16x2
 - Autres composants : Resistance, câble dupont
 
-## 🧱 Structure du projet
-
-StationMeteo/
-├── src/
-│   └── main.cpp
-├── hardware/
-│   ├── BOM.md
-│   ├── wiring.png
-│   └── schematic.pdf
-├── docs/
-│   └── setup.md
-├── assets/
-│   ├── demo/
-│   └── images/
-├── lib/
-├── include/
-├── test/
-└── README.md
-
-
 ## 🔌 Matériel nécessaire
 
 Voir le fichier [hardware/BOM.md](hardware/BOM.md)
